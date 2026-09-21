@@ -8,4 +8,4 @@ Hi! I'm Adit, an economics and mathematics student at UT Austin. I'm currently i
 
 I'm currently researching the labor market impacts of AI, particularly the gap between theoretical exposure and realized automation. I'm also the president of Effective Altruism at UT Austin. 
 
-Outside of work, I enjoy reading, writing, playing video games, and watching TV shows/films. I write on [Substack](https://substack.com/@aditpakala)
+Outside of work, I enjoy reading, writing, playing video games, and watching TV shows/films. I write on [Substack](https://substack.com/@aditpakala). Feel free to get in touch!
