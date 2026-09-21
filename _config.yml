@@ -1,0 +1,77 @@
+# Site settings
+title: "Adit Pakala"
+name: "Adit Pakala"
+description: "Personal website of Adit Pakala."
+url: "https://ventralvex.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+locale: "en-US"
+repository: "VentralVex/ventralvex.github.io"
+
+# Layout
+words_per_minute: 200
+breadcrumbs: false
+
+# Author / sidebar info
+author:
+  name: "Adit Pakala"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Student at UT Austin"
+  location: ""
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:aditrpakala@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/aditpakala/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/VentralVex"
+
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:aditrpakala@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/aditpakala/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/VentralVex"
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Site-wide defaults for pages (single-page layout, no comments/related posts)
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
+
+include:
+  - _pages
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
